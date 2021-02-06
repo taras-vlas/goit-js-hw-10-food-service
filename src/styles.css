@@ -33,12 +33,12 @@ body.dark-theme {
 }
 
 /* THEME SWITCH */
-.theme-switch {
+ .theme-switch {            /* перемикач повністю */
   display: flex;
   align-items: center;
 }
 
-.theme-switch__icon {
+.theme-switch__icon {       /* іконка Сонця / Місяця */ 
   color: currentColor;
   height: 24px;
   width: 24px;
@@ -46,7 +46,7 @@ body.dark-theme {
   margin-left: 8px;
 }
 
-.theme-switch__control {
+.theme-switch__control {    /* повзунок перемикача з маркером*/
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -57,7 +57,7 @@ body.dark-theme {
   padding: 3px 0;
 }
 
-.theme-switch__toggle {
+.theme-switch__toggle {     /* перемикання День / Ніч */
   position: absolute;
   left: 0;
   top: 0;
@@ -66,10 +66,10 @@ body.dark-theme {
   opacity: 0;
   height: 0;
   width: 0;
-  pointer-events: none;
+  pointer-events: none;      
 }
 
-.theme-switch__track {
+.theme-switch__track {      /* курс перемикача */
   position: absolute;
   left: 0;
   top: 0;
@@ -83,7 +83,7 @@ body.dark-theme {
   cursor: pointer;
 }
 
-.theme-switch__marker {
+.theme-switch__marker {      /* маркер повзунка на перемикачі */     
   position: relative;
   background-color: #fff;
   width: 26px;

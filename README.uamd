@@ -32,7 +32,7 @@ sudo apt-get install gcc g++ make
 
 ### Setting up Dev
 
-Для быстрого старта необходимо склонировать репозиторий.
+Для быстрого старта необходимо склонировать репозиторий!!!!!!!!!!!      cd ..        d:
 
 ```shell
 git clone https://github.com/luxplanjay/webpack-starter-kit.git
@@ -46,6 +46,7 @@ git clone https://github.com/luxplanjay/webpack-starter-kit.git
 ```shell
 mv webpack-starter-kit имя_проекта
 rename webpack-starter-kit goit-js-hw-10-food-service
+    mv webpack-starter-kit goit-js-hw-12-countries
 ```
 
 Затем перейти в папку проекта.
@@ -102,13 +103,15 @@ npm run build
 ```json
 "homepage": "https://имя_пользователя.github.io/имя_репозитория"
 "homepage": "https://taras-vlas.github.io/goit-js-hw-10-food-service"
+  "homepage": "https://taras-vlas.github.io/goit-js-hw-12-countries"
 ```
-      + git init
+        git init
         git add -A
       + git add --all
-      + git commit -a -m “Название коммита”     (-am ),
+      + git commit -a -m “hw 12 add - комiт”     (-am ),
 
     git remote add origin https://github.com/taras-vlas/goit-js-hw-10-food-service.git
+      git remote add origin https://github.com/taras-vlas/goit-js-hw-12-countries
     git branch -M master
     git push -u origin master
 
